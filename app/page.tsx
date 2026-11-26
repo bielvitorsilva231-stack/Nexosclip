@@ -10,7 +10,7 @@ export default function Home() {
       <main>
         <header className="brand text-center">
           <Image src="/icon.svg" width={106} height={106} alt="" className="brand-mark mx-auto" />
-          <h1>NEXUS CLIP</h1>
+          <h1>NEXOS CLIP</h1>
           <span className="brand-rule" aria-hidden="true" />
           <p>Seu próximo upgrade começa aqui.</p>
         </header>
@@ -52,7 +52,7 @@ export default function Home() {
           </ul>
         </section>
       </main>
-      <footer className="footer text-center">Nexus Clip</footer>
+      <footer className="footer text-center">Nexos Clip</footer>
     </div>
   );
 }

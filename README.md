@@ -1,4 +1,4 @@
-# Nexus Clip
+# Nexos Clip
 
 Página estática de achadinhos gamer com Next.js, TypeScript e Tailwind CSS.
 
