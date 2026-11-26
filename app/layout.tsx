@@ -2,7 +2,7 @@ import type { Metadata } from "next";
 import type { ReactNode } from "react";
 import "./globals.css";
 
-const description = "Achadinhos gamer da Nexos Clip. Seu próximo upgrade começa aqui.";
+const description = "Achadinhos gamer da Nexos Clip. Achados para deixar seu setup com a sua cara.";
 
 export const metadata: Metadata = {
   title: "Nexos Clip | Achadinhos gamer",

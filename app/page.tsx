@@ -12,7 +12,7 @@ export default function Home() {
           <Image src="/icon.svg" width={106} height={106} alt="" className="brand-mark mx-auto" />
           <h1>NEXOS CLIP</h1>
           <span className="brand-rule" aria-hidden="true" />
-          <p>Seu próximo upgrade começa aqui.</p>
+          <p>Achados para deixar seu setup com a sua cara.</p>
         </header>
 
         <section aria-labelledby="products-heading">
@@ -25,10 +25,10 @@ export default function Home() {
                 <li key={product.file}>
                   <a className="product-card grid items-center" href={product.url}
                     target="_blank" rel="sponsored noopener noreferrer">
-                    <div className="product-media grid aspect-square place-items-center">
+                    <div className="product-media grid aspect-[4/3] place-items-center">
                       {hasPhoto ? (
-                        <Image src={`/products/${product.file}`} alt={product.alt} width={320}
-                          height={320} className="size-full object-contain" />
+                        <Image src={`/products/${product.file}`} alt={product.alt} width={480}
+                          height={360} className="size-full object-contain" />
                       ) : (
                         <ImageIcon aria-hidden="true" size={28} strokeWidth={1.35} />
                       )}
